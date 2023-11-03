@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
@@ -21,3 +21,18 @@
     font-size: 36px;
 }
 
+#controls {
+    margin: 20px;
+}
+
+.disable { 
+    pointer-events: none;
+}
+
+.message { 
+    margin: 20px;
+}
+
+#controls {
+    margin: 20px;
+}
