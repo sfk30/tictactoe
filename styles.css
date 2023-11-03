@@ -21,18 +21,10 @@
     font-size: 36px;
 }
 
-#controls {
+#controls, .message {
     margin: 20px;
 }
 
 .disable { 
     pointer-events: none;
-}
-
-.message { 
-    margin: 20px;
-}
-
-#controls {
-    margin: 20px;
 }

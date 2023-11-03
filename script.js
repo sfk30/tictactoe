@@ -103,7 +103,7 @@ const controlGame = (function() {
                 message.textContent = `${player2.name} won`
             }
         }
-    } //have to switch player name as placeMarker function calls switchPlayer at the end so if X won currentPLayer would be Os
+    } //have to switch player name as placeMarker function calls switchPlayer at the end so if X won currentPlayer would be O
 
     function checkDraw() {
         const boxes = Array.from(allBoxes) //had to convert allBoxes (nodeList) to array for every to work 
