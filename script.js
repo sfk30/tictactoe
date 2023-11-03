@@ -96,7 +96,7 @@ const controlGame = (function() {
 
     function announceWinner() { 
         if (controlGame.checkForWinner()) {
-            if(controlGame.getCurrentPlayer().name = document.getElementById('player-2').value) {
+            if(controlGame.getCurrentPlayer().name = player2.name) {
                 message.textContent = `${player1.name} won`
             }
             else {
